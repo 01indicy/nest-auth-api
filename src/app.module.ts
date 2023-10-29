@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import { UserManagementModule } from './user.management/user.management.module';
 
 @Module({
-  imports: [],
+  imports: [UserManagementModule],
   controllers: [],
   providers: [],
 })
